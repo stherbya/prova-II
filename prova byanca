@@ -1,0 +1,31 @@
+QUESTÃO 1
+
+function detalharEndereço = (endereco) => {
+  return endereco.map(endereco => ({rua : rua.nome, cidade: cidade.nome, cep: cep.nome }));
+};
+console.log(({rua: "Rua das flores", cidade: "Porto Algre", cep:"90000-000"}));
+
+QUESTÃO 2
+
+const abreviarNomes = (nomes) => {
+  let {n1, n2, n3} = endereco; 
+  return `Carlos Alberto Silva : ${n1}, Julia Pereira Gomes : ${n2}, Lucas Alves : ${n3}`;
+};
+console.log(abreviarNomes({n1: "C. A. Silva", n2:"J. P. Gomes" , n3: "L. Alvez"}));
+
+QUESTÃO 3
+
+const retornarPromise = () => {
+  return new Promise((num1, num2) => {
+    let analiseComplexaDeNumero
+    soma = num1 + num2
+        if (soma > 150 & num1 + num2 % 2) {
+          retornarPromise().then(console.log)
+          console.log("Condição especial atingida")
+  }     
+        else 
+        retornarPromise().then(console.log)
+        console.log("Resultado comum")
+  )
+  }    
+
